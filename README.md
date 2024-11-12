@@ -25,3 +25,7 @@
 - **HeroTrends** — класс для анализа тенденций пиков героев и их использования в командах (то есть связки и комбинации).
   - Методы: `analyze_hero_picks()`, `analyze_hero_combinations()`
   - Атрибуты: `hero_pick_trends`, `hero_combinations`
+
+Чтобы запустить тесты, выполните следующую команду из корневой директории проекта:
+
+python -m unittest discover tests
