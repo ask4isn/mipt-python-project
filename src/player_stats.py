@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 class PlayerStats:
     def __init__(self, player_data: pd.DataFrame):
         self.player_data = player_data

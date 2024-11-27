@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 class TeamStats:
     def __init__(self, team_data: pd.DataFrame, place: int):
         self.team_data = team_data

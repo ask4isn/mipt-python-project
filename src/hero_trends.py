@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+
 class HeroTrends:
     def __init__(self, hero_data: pd.DataFrame):
         self.hero_data = hero_data
